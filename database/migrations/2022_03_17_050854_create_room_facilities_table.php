@@ -18,7 +18,7 @@ class CreateRoomFacilitiesTable extends Migration
             $table->foreignId('room_id');
             $table->string('name');
             $table->timestamps();
-        });
+        });/*  */
     }
 
     /**
